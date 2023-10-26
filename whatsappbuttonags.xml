@@ -48,6 +48,8 @@
 			  <option value="0">Right</option>
 			  <option value="1">Left</option>
 			  </field>
+				<field name="background" default="#E5DDD5" type="color" label="background color"/>
+				<field name="headerColor" default="#128C7E" type="color" label="header Color"/>
 
 
 

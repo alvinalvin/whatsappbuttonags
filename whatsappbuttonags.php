@@ -26,6 +26,8 @@ function onBeforeRender(){
 	 $headerTitle   = $this->params->get('headerTitle');
 	 $popup         = $this->params->get('popup');
 	 $position      = $this->params->get('position');
+	 $background    = $this->params->get('background');
+	 $headerColor   = $this->params->get('headerColor');
    // validando
 	 if ($popup==0 ) {
 	 	$popup = "true";
@@ -54,7 +56,9 @@ function onBeforeRender(){
         $('.floating-wpp').floatingWhatsApp({
             phone: '$numberphone',
             popupMessage: '$msj ',
-            showPopup:$popup,
+						backgroundColor:'orange',
+						headerColor: '$headerColor',
+						showPopup:$popup,
             position: '$position',
             //autoOpen: false,
             //autoOpenTimer: 4000,
@@ -65,19 +69,12 @@ function onBeforeRender(){
     });
 
 	");
-
-
-
-
-
-
-
-
-
-
+	$style = '
+	 .floating-wpp .floating-wpp-popup {
+	 		 background-color:'.$background.';
+		 }';
+   $doc->addStyleDeclaration($style);
 
 }
-
-
 
 }
