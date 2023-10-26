@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @copyright	Copyright (c) 2023 plugin button. All rights reserved.
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+-->
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+	<name>plg_system_whatsappbuttonags</name>
+	<author>Alvin Gil Saldaña </author>
+	<creationDate>October 2023</creationDate>
+	<copyright>Copyright (c) 2023 pluginbutton. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>alvin_gil@hotmail.com</authorEmail>
+	<authorUrl>https://github.com/alvinalvin</authorUrl>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[
+
+	]]>
+	</description>
+
+	<files>
+		<filename plugin="whatsappbuttonags">whatsappbuttonags.php</filename>
+		<filename>index.html</filename>
+		<filename>whatsappbuttonags.xml</filename>
+		<folder>assets</folder>
+
+
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_whatsappbuttonags.ini</language>
+		<language tag="en-GB">en-GB.plg_system_whatsappbuttonags.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="numberphone" type="text" default="67055843" label="Phone Number"/>
+				<field name="msj" type="text" default="Welcome To jQueryScript.Net" label="Popup Message"/>
+				<field name="headerTitle" type="text" default="jQuery Floating WhatsApp" label="Header Title"/>
+				<field name="popup" type="radio" default="0" label="Show Popup" description="">
+			  <option value="0">true</option>
+			  <option value="1">false</option>
+			  </field>
+				<field name="position" type="radio" default="0" label="Position" description="">
+			  <option value="0">Right</option>
+			  <option value="1">Left</option>
+			  </field>
+
+
+
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
