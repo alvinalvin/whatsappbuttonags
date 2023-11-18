@@ -22,7 +22,7 @@
 	</description>
 
 	<files>
-		<filename plugin="whatsappbuttonags">whatsappbuttonags.php</filename>
+		<filename plugin="plg_whatsappbuttonags">whatsappbuttonags.php</filename>
 		<filename>index.html</filename>
 		<filename>whatsappbuttonags.xml</filename>
 		<folder>assets</folder>
