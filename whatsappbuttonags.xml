@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * @copyright	Copyright (c) 2023 plugin button. All rights reserved.
+ * Developer: Alvin Gil Saldaña
+ * @copyright	Copyright (c) 2023 . All rights reserved.
  * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  */
 -->
 <extension type="plugin" version="3.0" group="system" method="upgrade">
-	<name>plg_system_whatsappbuttonags</name>
+	<name>plg_whatsappbuttonags</name>
 	<author>Alvin Gil Saldaña </author>
 	<creationDate>October 2023</creationDate>
-	<copyright>Copyright (c) 2023 pluginbutton. All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<copyright>Copyright © 2023 - All rights reserved.</copyright>
+	<license>GNU General Public License v2.0</license>
 	<authorEmail>alvin_gil@hotmail.com</authorEmail>
 	<authorUrl>https://github.com/alvinalvin</authorUrl>
 	<version>1.0.0</version>

@@ -1,4 +1,9 @@
 <?php
+/**
+* Developer: Alvin Gil Saldaña
+* @copyright	Copyright (c) 2023 . All rights reserved.
+* @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
 // no direct access
 defined('_JEXEC') or die;
 
@@ -6,7 +11,7 @@ defined('_JEXEC') or die;
 class plgsystemWhatsappbuttonAgs extends JPlugin {
 	protected $app;
 	function onAfterRender(){
-		// validando Clientes
+		// validate Clients
 		$app = JFactory::getApplication();
 		if ($app->isClient("administrator")) {
          return;
