@@ -42,11 +42,10 @@
 			  </field>
 				<field name="background" default="#E5DDD5" type="color" label="background color"/>
 				<field name="headerColor" default="#128C7E" type="color" label="header Color"/>
-
-
-
-
 			</fieldset>
 		</fields>
 	</config>
+	<updateservers>
+	<server type="extension" name="whatsappbuttonags">https://alvinalvin.github.io/updateserver.github.io/whatsapp.xml</server>
+</updateservers>
 </extension>
