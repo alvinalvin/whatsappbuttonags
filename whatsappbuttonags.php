@@ -6,8 +6,6 @@
  */
 // no direct access
 defined('_JEXEC') or die;
-
-
 class plgsystemWhatsappbuttonAgs extends JPlugin {
 	protected $app;
 	function onAfterRender(){
